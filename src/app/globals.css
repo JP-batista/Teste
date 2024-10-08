@@ -1,0 +1,25 @@
+/* src/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globais */
+body {
+  @apply bg-gray-50 text-gray-900 dark:bg-darkBackground dark:text-darkText;
+}
+
+h1, h2, h3 {
+  @apply font-bold text-gray-800 dark:text-darkText;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
+
+a {
+  @apply text-gray-900 dark:text-darkText hover:text-gray-600 dark:hover:text-gray-300;
+}
+
+article {
+  @apply bg-white dark:bg-darkBorder shadow-lg rounded-md p-6;
+}
